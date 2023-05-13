@@ -1,0 +1,110 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+
+
+.cursos {
+color: rgb(0, 0, 0);
+text-align: center;
+text-transform: uppercase;
+}
+
+.cursos img {
+max-width: 50%;
+height: auto;
+}
+
+.card {
+width: 50%;
+background: linear-gradient(to bottom, #dd09a8, #e90738);
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+padding: 30px;
+text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    .form {
+    width: 500px;
+    }
+
+.card {
+    width: 30%;
+    margin: 10px;
+}
+
+.cursos button {
+background-color: #000000;
+color: white;
+padding: 7px 20px;
+border: 1px solid #000000;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.cursos .card img {
+width: 30%;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.cursos .card h3 {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+.cursos .card p {
+font-size: 1em;
+margin-bottom: 5px;
+}
+
+.cursos .card p:last-child {
+font-weight: bold;
+}
+
+form {
+    width: 500px;
+}
