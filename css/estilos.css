@@ -266,10 +266,6 @@ footer {
         margin-right: 0;
         margin-bottom: 0.5rem;
     }
-    .container {
-      flex-direction: column;
-    }
-  
     .form {
       width: 100%;
     }
